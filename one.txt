@@ -3,3 +3,27 @@ Testing GitHub1
 
 # second comment
 Committing to the repo
+
+# Some commands
+
+# Adding a remote repo
+git remote add one.txt git@github.com:AtEase9/Example1
+# Pulling a remote repo and rebasing
+git pull --rebase git@github.com:AtEase9/Example1
+# Pushing a remote repo
+git push -u one.txt master
+
+# Some references:
+# GitHub usage
+https://kbroman.org/github_tutorial/pages/init.html
+
+# Permission denied issue with SSH-Key
+https://github.com/facebookresearch/deepmask/issues/23
+# Generating a new SSH-Key
+//help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+# Adding the new SSH-Key to GitHub
+https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+
+# SSH-Key error message; syntax issue
+https://stackoverflow.com/questions/47455300/ssh-config-bad-configuration-option-usekeychain-on-mac-os-sierra-10-12-6
+
